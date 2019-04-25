@@ -4,11 +4,23 @@
   <link rel="stylesheet" type="text/css" href="style.css"
 </head>
 
-<body>
+<body background="https://media.timeout.com/images/103576226/image.jpg">
 
 	<div class="contact-title">
-        <h1> Submit Your Contents Link, and category here!</h1>
+        <h1> Welcome Feel Free to Message Us</h1>
+        <h2> We are always active!</h2>
 	</div>
+  <div class="contact-form"
+    <form id="contact-form" method="post" action="ContactFormHandler.php">
+      <input name="name" type="text" class="form-control" placeholder="Your Name" required>
+      <br />
+      <input name="email" type="email" class="form-control" placeholder="Your Email" required>
+      <br />
+      <textarea name="message" class="form-control" placeholder="Message" row="4"></textarea>
+      <br />
+      <input type="submit" class="form-control submit" value="SEND MESSAGE">
+      </form>
+  </div>
 
 </body>
 </html>
