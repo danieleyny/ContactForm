@@ -1,12 +1,12 @@
 <?php
   $name = $_POST['name'];
   $visitor_email = $_POST['email'];
-  $message = $_POST['message']
+  $message = $_POST['message'];
 
 
-  $email_from = 'de748m@bhsec.bard.edu';
+  $email_from = "de748m@bhsec.bard.edu";
 
-  $email_subject = "New Form Submission"
+  $email_subject = "New Form Submission";
 
   $email_body = "User Name: $name.\n".
                   "User Email: $visitor_email.\n".
